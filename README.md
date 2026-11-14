@@ -27,7 +27,7 @@ graph LR
         MQ2[MQ-2 Gas Sensor] --> S_ESP
         US[HC-SR04 Ultrasonic] --> S_ESP
         RTC[DS3231 RTC - I2C] <--> S_ESP
-        S_ESP --> OLED[0.96" OLED - I2C]
+        S_ESP --> OLED[0.96-inch OLED - I2C]
         S_ESP --> CLED[Capacity LEDs: G/Y/R]
     end
 
